@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BI_ETL Staging", "File Cleasing\BI_ETL Staging.dtproj", "{8F8CB695-1DC4-45D1-9675-83C7021783EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documen", "Documen", "{1B4DE4DD-3BDA-45C6-911C-57A42B8F03C4}"
+	ProjectSection(SolutionItems) = preProject
+		Document\Courses Review.docx = Document\Courses Review.docx
+		Document\leason Learned.docx = Document\leason Learned.docx
+		Document\MetadataWorksheets.xlsx = Document\MetadataWorksheets.xlsx
+		Document\Milstone01_04 Paper.docx = Document\Milstone01_04 Paper.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{6D9F912C-A60E-4485-B8B7-AC9FBB4E9B9A}"
+	ProjectSection(SolutionItems) = preProject
+		Report\Bellevue Doctores' Report.xlsx = Report\Bellevue Doctores' Report.xlsx
+		Report\Patient Vists Report.pbix = Report\Patient Vists Report.pbix
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataFile", "DataFile", "{E7A779BE-A37A-4FA2-9D24-1619E9A8A6F7}"
+	ProjectSection(SolutionItems) = preProject
+		DataFile\BellevuePatientVisitsReportDatas.csv = DataFile\BellevuePatientVisitsReportDatas.csv
+		DataFile\ClinicDailyData.zip = DataFile\ClinicDailyData.zip
+		DataFile\ClinicReportData.csv = DataFile\ClinicReportData.csv
+		DataFile\DoctoreShiftReportData.csv = DataFile\DoctoreShiftReportData.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{A7E4915A-C74E-4C76-BEF0-541EFEEF7CEC}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\1-MS01_Create DWClinicReportData.sql = Scripts\1-MS01_Create DWClinicReportData.sql
+		Scripts\2-MS01_CleansingNewPatientData.sql = Scripts\2-MS01_CleansingNewPatientData.sql
+		Scripts\3-MS01_CleansingVisitsData.sql = Scripts\3-MS01_CleansingVisitsData.sql
+		Scripts\4-MS02_ETL Code.sql = Scripts\4-MS02_ETL Code.sql
+		Scripts\7-MS03_Report_VisitAnd DoctorShiftData.sql = Scripts\7-MS03_Report_VisitAnd DoctorShiftData.sql
+		Scripts\8-MS04_Report_VisitsData.sql = Scripts\8-MS04_Report_VisitsData.sql
+		Scripts\M3-ETLFromDoctorsScheduleCSVToAtlas - Copy.py = Scripts\M3-ETLFromDoctorsScheduleCSVToAtlas - Copy.py
+		Scripts\M3-ETLFromPatientsVisitsCSVToAtlas.py = Scripts\M3-ETLFromPatientsVisitsCSVToAtlas.py
+		Scripts\MS4-ExportBellevuePatientVisitsReportData.py = Scripts\MS4-ExportBellevuePatientVisitsReportData.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F8CB695-1DC4-45D1-9675-83C7021783EF}.Development|Default.ActiveCfg = Development
+		{8F8CB695-1DC4-45D1-9675-83C7021783EF}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC4E7CB-AADC-4087-BFF1-E01A150BA239}
+	EndGlobalSection
+EndGlobal
