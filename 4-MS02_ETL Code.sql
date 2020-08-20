@@ -1,10 +1,10 @@
 --*************************************************************************--
 -- Title: Final
--- Author: RRoot
+-- Dev: DHailu
 -- Desc: Incremental loading data from [a4psqldbsever.database.windows.net].[Patients] database and [LAPTOP-GRDPVG28\SQL2019].[Doctors] databse into 
 ---[a4psqldbsever.database.windows.net] server in DWClinicReportDataDejeneHail datawarehouse database with SQL code
 -- Change Log: When,Who,What
--- 2020-06-08, DejenHailu, Created SQL code
+-- 2020-06-08, DejenHailu, Edited SQL code
 --**************************************************************************--
 USE  DWClinicReportDataDejeneHail;
 go
